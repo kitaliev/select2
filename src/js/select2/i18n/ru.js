@@ -44,7 +44,7 @@ define(function () {
     maximumSelected: function (args) {
       var message = 'Вы можете выбрать не более ' + args.maximum + ' элемент';
 
-      message += ending(args.maximum, '', 'a', 'ов');
+      message += ending(args.maximum, 'а', 'a', 'ов');
 
       return message;
     },
